@@ -7,9 +7,9 @@ dotfiles
 ### local (OSX)
 
 - iTerm2
-- zsh
-    - zsh-completions
-- vim (default)
+- zsh (brew)
+    - zsh-completions (brew)
+- vim (brew)
 
 ### remote (Unix)
 
@@ -20,4 +20,4 @@ dotfiles
 ## resources
 
 - iTerm2
-    - Hybrid.itermcolors: https://gist.github.com/luan/6362811
+    - .Xresources, hybrid.itermcolors: https://github.com/w0ng/vim-hybrid
