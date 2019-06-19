@@ -86,7 +86,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Pythonのチェッカー（flake8, pylintのインストールが必要）
-let g:syntastic_python_checkers = ['python', 'flake8', 'pylint']
+let g:syntastic_python_checkers = ['python', 'flake8']
 
 "------------------------------------------------------------------------------
 " jedi-vim
@@ -98,6 +98,7 @@ autocmd FileType python setlocal completeopt-=preview
 "------------------------------------------------------------------------------
 " カラースキーマ
 let g:hybrid_custom_term_colors = 1
+set background=dark
 colorscheme hybrid
 
 " 構文ごとに色を変化
