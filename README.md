@@ -17,6 +17,24 @@ dotfiles
 - bash (default)
 - vim (default)
 
+## install
+
+```bash
+# clone
+$ git clone https://github.com/junion-org/dotfiles.git
+$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+# symlnk what you need
+$ ln -s dotfiles/.vimrc
+$ ln -s dotfiles/.zshrc
+$ ln -s dotfiles/.tmux.conf
+$ ln -s dotfiles/.Xresources
+
+# Run a command below in Vim
+$ vim
+:PluginInstall
+```
+
 ## resources
 
 - iTerm2
